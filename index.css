@@ -7,7 +7,7 @@
     font-size: clamp(10vh, 10vw, 20vh);
 }
 
-.storyDesc, .bestsellerDesc {
+.storyDesc {
     position: relative;
     overflow: hidden;
     z-index: 2;
@@ -25,4 +25,21 @@
 
 #titoloBestseller{
     font-size: clamp(10vh, 10vw, 20vh);
+}
+
+.bestsellerDescImage {
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+    z-index: 2;
+    background-color: rgba(255,255,255,.5);
+}
+
+.bestsellerDescText {
+    width: 96.997%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    background-color: rgba(255,255,255,.5);
 }
