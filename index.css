@@ -1,11 +1,28 @@
+/*STORY*/
 #story{
+    background-image: url(images/biscottiSfondo3.jpeg);
+}
+
+#titoloStory{
+    font-size: clamp(10vh, 10vw, 20vh);
+}
+
+.storyDesc, .bestsellerDesc {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    background-color: rgba(255,255,255,.5);
+}
+
+.storyDesc>h2{
+    color: #ff3909;
+}
+
+/*BEST SELLER*/
+#bestseller{
     background-color: darkred;
 }
 
-.my-10 {
-    margin-top: 20vh;
-}
-
-#titolo{
+#titoloBestseller{
     font-size: clamp(10vh, 10vw, 20vh);
 }
